@@ -1,5 +1,9 @@
 import { TwitterTweetEmbed } from "react-twitter-embed";
 
+import { Timeline, Tweet } from "react-twitter-widgets";
+
+// Tweet (without options)
+
 import mergeImage from "./merge.png";
 
 function App() {
@@ -52,10 +56,8 @@ function App() {
         </a>
 
         <p class="text-4xl mb-4">Guide to lots of stuff happening 👇</p>
-        <TwitterTweetEmbed
-          tweetId={"1570127028887715840"}
-          options={{ width: "1000px" }}
-        />
+        <Tweet tweetId="1570127028887715840" />
+
         <img src={mergeImage} class="max-w-screen m-8 mt-24" alt="merge" />
       </header>
     </div>
