@@ -56,7 +56,7 @@ function App() {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={hudsonTweet} class="max-w-full m-8 mt-24" alt="merge" />
+          <img src={hudsonTweet} class="max-w-full m-8" alt="merge" />
         </a>
 
         <img src={mergeImage} class="max-w-screen m-8 mt-24" alt="merge" />
