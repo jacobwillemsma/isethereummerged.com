@@ -15,27 +15,15 @@ function App() {
           <p class="text-xl mb-24 font-semibold">(But it will be soon)</p>
         </div>
 
-        <p class="text-4xl mb-8">
-          Check out any of the sources below for an updated timeline:
-        </p>
-        <ul class="mb-12">
-          <li className="mb-2 text-xl">
+        <p class="text-4xl mb-8">Why the merge matters 🌿</p>
+        <ul class="mb-24">
+          <li className="mb-2 text-xl underline">
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://ultrasound.money/"
+              href="https://ethereum.org/en/upgrades/merge/"
             >
-              https://ultrasound.money
-            </a>
-          </li>
-          <li className="mb-2 text-xl">
-            <a target="_blank" rel="noreferrer" href="https://bordel.wtf/">
-              https://bordel.wtf
-            </a>
-          </li>
-          <li className="mb-2 text-xl">
-            <a target="_blank" rel="noreferrer" href="https://797.io/themerge/">
-              https://797.io/themerge
+              Learn about the merge
             </a>
           </li>
         </ul>
@@ -49,6 +37,42 @@ function App() {
             Merge Watchparty
           </button>
         </a>
+
+        <p class="text-4xl mb-8">
+          Check out any of the sources below for an updated timeline:
+        </p>
+        <ul class="mb-12">
+          <li className="mb-2 text-xl">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://ultrasound.money/"
+              class="underline"
+            >
+              https://ultrasound.money
+            </a>
+          </li>
+          <li className="mb-2 text-xl">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://bordel.wtf/"
+              class="underline"
+            >
+              https://bordel.wtf
+            </a>
+          </li>
+          <li className="mb-2 text-xl">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://797.io/themerge/"
+              class="underline"
+            >
+              https://797.io/themerge
+            </a>
+          </li>
+        </ul>
 
         <p class="text-4xl mb-4">Guide to lots of stuff happening 👇</p>
         <a
