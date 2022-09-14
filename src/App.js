@@ -1,8 +1,4 @@
-import { TwitterTweetEmbed } from "react-twitter-embed";
-
-import { Timeline, Tweet } from "react-twitter-widgets";
-
-// Tweet (without options)
+import { Tweet } from "react-twitter-widgets";
 
 import mergeImage from "./merge.png";
 
